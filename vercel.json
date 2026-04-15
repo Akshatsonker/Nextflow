@@ -1,0 +1,15 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
+    "CLERK_SECRET_KEY",
+    "DATABASE_URL",
+    "TRIGGER_SECRET_KEY",
+    "NEXT_PUBLIC_TRIGGER_PUBLIC_API_KEY",
+    "TRANSLOADIT_KEY",
+    "TRANSLOADIT_SECRET",
+    "GEMINI_API_KEY"
+  ]
+}
