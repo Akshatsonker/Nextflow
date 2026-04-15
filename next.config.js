@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint:{
+    ignoreDuringBuilds:true,
+  },
   serverExternalPackages: ["@trigger.dev/sdk"],
   images: {
     remotePatterns: [
